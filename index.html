@@ -151,14 +151,14 @@
                     //}
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/version_20.loader.js'
+                    unityLoader.src = 'Build/version_21_ssl.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/version_20.data.unityweb',
-                                frameworkUrl: 'Build/version_20.framework.js.unityweb',
-                                codeUrl: 'Build/version_20.wasm.unityweb',
+                                dataUrl: 'Build/version_21_ssl.data.unityweb',
+                                frameworkUrl: 'Build/version_21_ssl.framework.js.unityweb',
+                                codeUrl: 'Build/version_21_ssl.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'DefaultCompany',
                                 productName: 'SleddingGame',
